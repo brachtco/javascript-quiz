@@ -20,7 +20,7 @@ header {
 h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:darkorchid
+    color:ivory
 }
 
 .start-button {
@@ -34,15 +34,78 @@ h1 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-    .highscores {
-        background-color: brown;
-    }
 
-    .questions {
+.start-button:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 40%;
+    background-color: beige;
+    height: 80%;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;;
+    
+}
+
+
+.questions {
         display: flex;
         justify-content: space-between;
         margin-top: 16px;
-        background-color: aliceblue;
+    
       
     }
+
+    .btn-answer {
+        margin-top: 10px;
+        padding 5px;
+        width: 100%;
+        background-color: darkslateblue;
+        color:floralwhite;
+    }
+
+    .btn-answer {
+        cursor: pointer;
+    }
+
+.timer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 320px;
+    left: 600px;
+    background-color: green;
+    padding: 50px;
+    border-radius: 10%;
+    color: white;
+}
+
+    .card {
+        background-color: beige;
+        border-radius: 8px;
+        box-shadow: 0 0 5px 4px;
+        margin: 140px 20px;
+        padding: 20px;
+        width: 40%;
+        justify-content: right;
+        position: relative;
+        left: 600px;
+        bottom: 350px;
+
+        
+      }
+
+      #save-button {
+        cursor: pointer;
+      }
+
+      
 
