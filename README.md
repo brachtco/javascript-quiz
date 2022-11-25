@@ -14,3 +14,9 @@ of this acheieved by grabbing elements from the HTML, looping and adding an even
 The score is supposed to appear in the Score input and when user types initials and hits
 the Save button, they should be saved. However, I was unable to make this work at 
 this time. 
+
+### Deployed Application
+https://brachtco.github.io/javascript-quiz/
+
+### Screenshot
+![Screen Shot 2022-11-25 at 2 33 57 PM](https://user-images.githubusercontent.com/17559972/204057371-754b91b6-3619-4199-a45e-f7d22b0fd83c.png)
