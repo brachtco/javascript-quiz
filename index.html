@@ -14,17 +14,35 @@
     </header>
     <main>
       
-        <section>
-            <div class="highscores"></div>
+        <section class="container">
+            <form>
+                <div class="questions" id="questionsEl"></div>
+            
+                <!-- <div class="btn-answer"></div> -->
+               
+                
+                <div class="choices"></div>
+                <div class="result"></div>
+                <div class="showAnswers"></div>
+
+            </form>
+            
+        
+            </div>
+            <div class="timer">30</div>
         </section>
-        <section>
-            <div class="questions"></div>
-        </section>
-        <section>
-            <div class="timer"></div>
-        </section>
+        <div class="card">
+            <h2>Score Card</h2>
+    
+            <p>Players Initials:<input type = "text" id="saved-initials" name = "initials"></p>
+
+            <p>Score: <input type = "number" id="saved-score" name = "score"></p>
+
+            <button id = "save-button">SAVE</button>
+          </div>
     </main>
 
     <script defer src="./assets/script.js"></script>
   </body>
+</html>
 </html>
